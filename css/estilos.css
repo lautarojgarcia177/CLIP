@@ -1,0 +1,218 @@
+body{
+    background-color: #0e1016;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    margin: 0;
+}
+
+main{
+    text-align: center;   
+}
+
+p{
+    margin: 0%;
+}
+
+header{
+    background-color: #1a1919;
+    padding-top: 0.5rem;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+footer{
+    background-color: #1a1919;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    padding-bottom: 5px;
+}
+
+.redes{
+    padding: 1rem;
+}
+
+nav a.logo{
+    margin: 1rem;
+}
+
+ul#navegador{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.fondo{
+    background-image: url(../Imagenes/wallpaperbetter.com_1920x1080.jpg);
+    padding: 1%;
+    background-repeat: no-repeat;
+}
+
+.intro{
+    margin-top: 15%;
+    margin-bottom: 15%;
+    background-size: cover;
+}
+
+nav{
+    background-color: #1a1919;
+    padding: 0.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ul#navegador{
+    float: right;
+}
+
+#navegador li{
+    float: left;
+}
+
+#navegador li a{
+    display: block;
+    padding: 10px;
+    font-weight: 600;
+}
+
+#navegador li .paginaActiva {
+    background-color: #353434;
+    color: #d3e82b;
+}
+
+.cambio{
+    color: #d3e82b;
+    font-size: 40px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 20px black;
+}
+
+.indexparrafo{
+    font-size: 20px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 20px black
+}
+
+a{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.boton-buy a{
+    color: #0e1016;
+}
+
+.boton-buy {
+    background-color: #d3e82b;
+    color: #0e1016;
+}
+
+.inscribirme{
+    margin-top: 60px;
+}
+
+.inscribirme a{
+    background-color: #d3e82b;
+    color: black;
+    padding: 12px 30px 12px 30px;
+    border-radius: 4px;
+}
+
+.copyright{
+    color: grey;
+}
+
+.tablaplanes{
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 3px solid #d3e82b;
+}
+
+textarea {
+    width: 50%;
+    height: 150px;
+    padding: 6px 10px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color:white;
+    font-size: 16px;
+    resize: none;
+}
+
+select {
+    width: 50%;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+
+.contacto{
+    margin-left: 25%;
+    margin-right: 25%;
+    border:none;
+}
+
+.nombrestaff {
+    color: #d3e82b;
+}
+
+input[type=submit], input[type=reset] {
+    background-color: #d3e82b;
+    border: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 14px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    float: left;
+  }
+
+.formulario{
+    background-color: black;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.tablastaff{
+    margin: auto;
+    background-color: #252525;
+    border-radius: 5px;
+}
+
+.planbasico{
+    background-color: #252525;
+    padding: 15px;
+    justify-content: center;
+}
+
+.planpremium{
+    padding: 30px;
+    justify-content: center;
+}
+
+.centrado{
+    text-align: center
+}
+

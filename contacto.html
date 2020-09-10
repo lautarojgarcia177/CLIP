@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MediaFit</title>     
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="../css/estilos.css">
+    </head> 
+    <body>
+        <header>
+            <nav>
+            <a href="index.html" class="logo"><img src="../assets/img/MEDIA_FIT_LOGO_baja_verde.png" alt="Foto del logo"></a>                
+            <ul id="navegador">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="staff.html">Staff</a></li>
+                <li><a href="gimnasio.html">Gimnasio</a></li>
+                <li><a href="planes.html">Planes</a></li>
+                <li><a href="contacto.html" class="paginaActiva"> Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <main>
+            <h2>Contactanos!</h2>
+            <p>Envianos tu consulta y recibi una respuesta en el dia!</p>
+            <div class="formulario">
+                <form action="#" method="POST">
+                    <fieldset class="contacto">
+                        <label for="Nombre">Tu nombre:</label>
+                        <input type="text"  name="Nombre" placeholder="Nombre" id="Nombre"><br><br>
+
+                        <label for="correo">Tu email:</label>
+                        <input type="text"  name="correo" id="correo" placeholder="Dirección de Correo Electronico" required><br><br>
+                        
+                        <label for="asunto">Asunto</label>
+                        <select name="asunto" id="Asunto">
+                            <option select disabled selected>Seleccionar asunto</option>
+                            <option value="problema-pago">Problemas con mi pago</option>
+                            <option value="Cancelar-suscripcion">Quiero darme de baja</option>
+                            <option value="comentarios">Comentarios generales</option>
+                            <option value="quejas">Libro de quejas</option>
+                        </select><br><br>
+
+                        <label for="comentario">Tu comentario</label>
+                        <textarea name="comentario" id="comentario" cols="30" rows="10">Mensaje</textarea><br><br>
+
+                        
+                        <label for="cliente">Soy cliente</label>
+                        <input type="radio" name="cliente" value="si">
+                        <label for="cliente">No soy cliente</label>
+                        <input type="radio" name="cliente" value="no"><br><br>
+
+                        <label for="pass">Contraseña</label>
+                        <input type="password" name="pass" id="pass"><br><br>
+
+                        <input type="reset" value="Reiniciar Formulario">
+
+                        <input type="submit" name="submit" value="Enviar">
+                    </fieldset>
+                </form>
+            </div>
+        </main>
+        <br>
+        <footer>
+            <p>Nuestras redes</p>
+                <ul>
+                    <li><a href="https://www.facebook.com/">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/">Instagram</a></li>
+                    <li><a href="https://www.youtube.com/">Youtube</a></li>
+                </ul>
+            <p class="copyright">©MediaFit. Todos los derechos reservados.</p>
+        </footer>
+    </body>
+</html>
