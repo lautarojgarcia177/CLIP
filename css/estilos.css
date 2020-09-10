@@ -80,7 +80,12 @@ ul#navegador{
     font-weight: 600;
 }
 
-#navegador li .paginaActiva {
+#navegador li {
+    background-color: #353434;
+    color: #d3e82b;
+}
+
+.paginaActiva {
     background-color: #353434;
     color: #d3e82b;
 }
