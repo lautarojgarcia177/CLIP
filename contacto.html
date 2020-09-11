@@ -39,13 +39,13 @@
                 <form action="#" method="POST">
                     <fieldset class="form-group">
                         <label for="Nombre">Tu nombre:</label>
-                        <input type="text"  name="Nombre" placeholder="Nombre" id="Nombre"><br><br>
+                        <input type="text" class="form-control" name="Nombre" placeholder="Nombre" id="Nombre" required>
                         <label for="correo">Tu email:</label>
-                        <input type="email" name="correo" class="form-control" id="correo" placeholder="Dirección de Correo Electronico" required><br><br>
+                        <input type="email" name="correo" class="form-control" id="correo" placeholder="Dirección de Correo Electronico" required>
                     </fieldset>
                     <fieldset class="form-group">
                         <label for="asunto">Asunto</label>
-                        <select name="asunto" id="Asunto">
+                        <select name="asunto" class="form-control" id="Asunto">
                             <option select disabled selected>Seleccionar asunto</option>
                             <option value="problema-pago">Problemas con mi pago</option>
                             <option value="Cancelar-suscripcion">Quiero darme de baja</option>
@@ -55,10 +55,10 @@
                     </fieldset>
                     <fieldset class="form-group">
                         <label for="comentario">Tu comentario</label>
-                        <textarea name="comentario" id="comentario" cols="30" rows="10">Mensaje</textarea>
+                        <textarea name="comentario" class="form-control" id="comentario" cols="30" rows="10">Mensaje</textarea>
                     </fieldset>
-                        <input type="reset" value="Reiniciar Formulario">
-                        <input type="submit" name="submit" value="Enviar">
+                        <button type="reset" class="btn btn-dark">Reiniciar Formulario</button>
+                        <button type="submit" class="btn btn-dark">Enviar</button>
                 </form>
             </div>
         </main>
