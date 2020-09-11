@@ -85,10 +85,10 @@ ul#navegador{
     color: #d3e82b;
 }
 
-.paginaActiva {
+/* .paginaActiva {
     background-color: #353434;
     color: #d3e82b;
-}
+} */
 
 .cambio{
     color: #d3e82b;
@@ -172,11 +172,11 @@ select {
     background-color: #f1f1f1;
 }
 
-.contacto{
+/* .contacto{
     margin-left: 25%;
     margin-right: 25%;
     border:none;
-}
+} */
 
 .nombrestaff {
     color: #d3e82b;
