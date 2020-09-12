@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MediaFit</title>  
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="../css/estilos.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    </head> 
+    <body class="text-center">
+      <header>
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">
+              <img src="../assets/img/MEDIA_FIT_LOGO_baja_verde.png" width="160" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+              Fitness club
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link" href="staff.html">Staff</a>
+                <a class="nav-link" href="gimnasio.html">Gimnasio</a>
+                <a class="nav-link" href="planes.html">Planes</a>
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </div>
+            </div>
+            <a class="ml-2" href="adivinanza.html">
+                <button class="btn btn-outline-success my-2 my-sm-0">Adivinanza</button>
+            </a>
+          </nav>
+      </header>
+      <main>
+          <section>
+            <!-- A fin de interactuar con el usuario y, utilizando javascript, agrega en tu sitio web una
+            adivinanza (relacionada al tema del sitio) con hasta 4 intentos.
+            El apartado de adivinanza, deberá:
+            • contener un cuadro texto y un botón
+            • facilitar al usuario 2 pistas si el usuario no acierta en el intento 2 y 3.
+            • informar en todo momento al usuario el nro intentos que le quedan.
+            • informar el resultado final (si acierta o si perdió los 4 intentos).
+            (opcional) usar los componentes de Alertas de Bootstrap 4 para informar al usuario. -->
+            <h2 class="mb-2">Adivinanza</h2>
+            <form class="form-group container border">
+                  <h4 class="mt-2">¿Qué tipo de establecimiento estamos promocionando en este sitio web?</h4>
+                  <input type="text" class="form-control" id="respuesta" aria-describedby="respuestaHelp" placeholder="Introduzca su respuesta">
+                  <div id="alertExito" class="alert alert-success" role="alert">
+                    This is a success alert—check it out!
+                  </div>
+                  <div id="alertFalla" class="alert alert-danger" role="alert">
+                    This is a danger alert—check it out!
+                  </div>
+                  <p id="respuestaHelp" class="form-text text-muted">
+                     <small id="pista1"><b>Pista:</b> ¿Donde se puede hacer ejercicio?</small><br>
+                     <small id="pista2"><b>Pista:</b> Lugar donde hay maquinas de Musculación y otras actividades como Pilates</small>
+                  </p>
+                  <button id="enviarBtn" type="button" class="btn btn-dark mb-2">Enviar</button>
+                  <p>A usted le quedan <span id="cantidadDeIntentos">4</span> intentos para resolver la adivinanza</p>
+                </div>
+              </form>
+          </section>
+      </main>    
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="./adivinanza.js"></script>
+    </body>
+
+</html>
