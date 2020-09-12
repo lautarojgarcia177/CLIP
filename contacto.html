@@ -32,19 +32,19 @@
                 </div>
             </nav>
     </header>
-        <main>
+        <main class="text-center">
             <h2>Contactanos!</h2>
             <p>Envianos tu consulta y recibi una respuesta en el dia!</p>
-            <div class="formulario">
+            <div class="container"">
                 <form action="#" method="POST">
                     <fieldset class="form-group">
-                        <label for="Nombre">Tu nombre:</label>
+                        <label for="Nombre"><strong>Tu nombre:</strong></label>
                         <input type="text" class="form-control" name="Nombre" placeholder="Nombre" id="Nombre" required>
-                        <label for="correo">Tu email:</label>
+                        <label for="correo"><strong>Tu email:</strong></label>
                         <input type="email" name="correo" class="form-control" id="correo" placeholder="Dirección de Correo Electronico" required>
                     </fieldset>
                     <fieldset class="form-group">
-                        <label for="asunto">Asunto</label>
+                        <label for="asunto"><strong>Asunto</strong></label>
                         <select name="asunto" class="form-control" id="Asunto">
                             <option select disabled selected>Seleccionar asunto</option>
                             <option value="problema-pago">Problemas con mi pago</option>
@@ -54,7 +54,7 @@
                         </select>
                     </fieldset>
                     <fieldset class="form-group">
-                        <label for="comentario">Tu comentario</label>
+                        <label for="comentario"><strong>Tu comentario</strong></label>
                         <textarea name="comentario" class="form-control" id="comentario" cols="30" rows="10">Mensaje</textarea>
                     </fieldset>
                         <button type="reset" class="btn btn-dark">Reiniciar Formulario</button>
