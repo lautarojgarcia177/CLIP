@@ -43,20 +43,28 @@
             (opcional) usar los componentes de Alertas de Bootstrap 4 para informar al usuario. -->
             <h2 class="mb-2">Adivinanza</h2>
             <form class="form-group container border">
+              <fieldset id="respuestaFieldSet">
                   <h4 class="mt-2">¿Qué tipo de establecimiento estamos promocionando en este sitio web?</h4>
                   <input type="text" class="form-control" id="respuesta" aria-describedby="respuestaHelp" placeholder="Introduzca su respuesta">
                   <div id="alertExito" class="alert alert-success" role="alert">
-                    This is a success alert—check it out!
+                    ¡Respuesta correcta!
                   </div>
                   <div id="alertFalla" class="alert alert-danger" role="alert">
-                    This is a danger alert—check it out!
+                    Respuesta incorrecta
+                  </div>
+                  <div id="alertNoMasIntentos" class="alert alert-dark" role="alert">
+                    Usted se ha quedado sin intentos
                   </div>
                   <p id="respuestaHelp" class="form-text text-muted">
                      <small id="pista1"><b>Pista:</b> ¿Donde se puede hacer ejercicio?</small><br>
                      <small id="pista2"><b>Pista:</b> Lugar donde hay maquinas de Musculación y otras actividades como Pilates</small>
                   </p>
+                </fieldset>
+                <div class="d-flex justify-content-center">
                   <button id="enviarBtn" type="button" class="btn btn-dark mb-2">Enviar</button>
-                  <p>A usted le quedan <span id="cantidadDeIntentos">4</span> intentos para resolver la adivinanza</p>
+                  <button id="reintentarBtn" type="button" class="btn btn-dark mb-2">Volver a intentarlo</button>
+                </div>
+                  <p id="intentos">A usted le quedan <span id="cantidadDeIntentos"></span> intentos para resolver la adivinanza</p>
                 </div>
               </form>
           </section>
